@@ -1,12 +1,12 @@
-:root {
-  --primary-color: #145B96;
-  --white-color: #fff;
-  --text-color: #222222;
-  --black-color: #000;
-  --background-hover: linear-gradient(#145B96, #2D9CDB);
-  --background-normal: #F8F8F8;
-
-  --height-header: 88px
+:root{
+  --brown:#daa556;
+  --dark-color:#cc9c54;
+  --becolor:#b88f4d;
+  --black:#444;
+  --light-color:#666;
+  --border:.1rem solid rgba(0,0,0,.1);
+  --border-hover:.1rem solid var(--black);
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 @import "./reset.css";
@@ -16,32 +16,83 @@
 */
 
 @font-face {
-  font-family: "Inter-Regular";
-  src: url("../../font/Inter-Regular.ttf");
+  font-family: "Poppins-Regular";
+  src: url("../../font/Poppins-Regular.ttf");
 }
 
-html {
-  font-family: 'Inter-Regular';
-  font-size: 18px;
-}
-
-a {
+*{
+  font-family: 'Poppins-Regular', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
   text-decoration: none;
+  text-transform: capitalize;
+  transition:all .2s linear;
+  transition:width none;
 }
 
-a:hover {
-  text-decoration: none;
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+  width:1rem;
 }
 
-li {
-  list-style: none;
+html::-webkit-scrollbar-track{
+  background:transparent;
 }
 
-.Haidh__grid {
-  max-width: 1600px;
-  margin: 0 auto;
+html::-webkit-scrollbar-thumb{
+  background:var(--black);
+}
+section{
+  padding:5rem 9%;
+  
 }
 
+.heading{
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.heading::before{
+  content: '';
+  position: absolute;
+  top:50%; left:0;
+  transform: translateY(-50%);
+  width: 100%;
+  height:.01rem;
+  background: rgba(0,0,0,.1);
+  z-index: -1;
+}
+
+.heading span{
+  font-size: 3rem;
+  padding:.5rem 2rem;
+  color:var(--black);
+  background: #fff;
+  border:var(--border);
+}
+
+.btn{
+  margin-top: 1rem;
+  display:inline-block;
+  padding:.9rem 3rem;
+  border-radius: .5rem;
+  color:#fff;
+  background:var(--brown);
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn:hover{
+  background:var(--dark-color);
+}
 
 
 @keyframes fadeIn {
