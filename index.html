@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete Responsive Online Boot Store Website Design Tutorial</title>
 
+    <link rel="stylesheet" href="./asset/style/common/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <!-- font awesome -->
     <link rel="stylesheet" href="./asset/font/fontawesome-pro-5.13.0-web/css/all.css">
@@ -26,24 +27,30 @@
 
 <header class="header">
 
-    <div class="header-1">
+    <div class="header-1 ">
 
-        <a href="#" class="logo"> <i class="fas fa-book"></i> <div><span>bookly</span>
-        <span>End of Alley</span></div> </a>
+        <a href="#" class="logo"> <i class="fas fa-book"></i> <div class="content">
+            <h3>Bookly</h3>
+            <p>end of alley</p>
+        </div> </a>
 
         <form action="" class="search-form">
             <input type="search" name="" placeholder="search here..." id="search-box">
             <label for="search-box" class="fas fa-search"></label>
         </form>
 
-        <div class="icons">
+        <div class="icons d-flex align-items-center">
             <div id="search-btn" class="fas fa-search"></div>
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user" >
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+              </div>
+            <!-- <div id="login-btn" class="fas fa-user" >
                 <span style="font-size: 2rem;text-transform: uppercase;">User</span>
                 <span><i class="fas fa-chevron-down" style="font-weight: 700;"></i></span>
-            </div>
+            </div> -->
             
         </div>
 
@@ -682,7 +689,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide box">
-                <div class="./asset/image">
+                <div class="image">
                     <img src="./asset/image/blog-1.jpg" alt="">
                 </div>
                 <div class="content">
@@ -693,7 +700,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <div class="./asset/image">
+                <div class="image">
                     <img src="./asset/image/blog-2.jpg" alt="">
                 </div>
                 <div class="content">
@@ -704,7 +711,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <div class="./asset/image">
+                <div class="image">
                     <img src="./asset/image/blog-3.jpg" alt="">
                 </div>
                 <div class="content">
@@ -715,7 +722,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <div class="./asset/image">
+                <div class="image">
                     <img src="./asset/image/blog-4.jpg" alt="">
                 </div>
                 <div class="content">
@@ -726,7 +733,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <div class="./asset/image">
+                <div class="image">
                     <img src="./asset/image/blog-5.jpg" alt="">
                 </div>
                 <div class="content">
@@ -824,6 +831,7 @@
 
 
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./asset/js/common/bootstrap.bundle.min.js"></script>
 
 <!-- custom js file link  -->
 <!-- <script src="js/script.js"></script> -->
