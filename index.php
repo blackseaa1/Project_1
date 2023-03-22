@@ -57,10 +57,6 @@
                         </li>
                     </ul>
                 </div>
-
-
-
-
                 <div class="navbar align-self-center d-flex">
                     <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
@@ -74,7 +70,7 @@
                         data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="./shop-cart.html">
+                    <a class="nav-icon position-relative text-decoration-none" href="shop-cart.php">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <!-- <span
                             class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
@@ -82,7 +78,7 @@
 
                         <!-- Thêm đăng nhập đăng kí -->
                     </a>
-                    <div class=""><a class="nav-icon position-relative text-decoration-none" href="./shop-cart.html">
+                    <div class=""><a class="nav-icon position-relative text-decoration-none" href="shop-cart.php">
                         </a><a href="./login.html" class="btn btn-outline-success border border-success me-2">Đăng Nhập</a>
                         <a href="./register.html" class="btn btn-success text-white">Đăng Kí</a>
                     </div>

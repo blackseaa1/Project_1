@@ -53,7 +53,7 @@ https://templatemo.com/tm-559-zay-shop
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.php">
                 <div class="content">
                     <h3 class="fw-bold text-secondary">Bookly</h3>
                     <p class="">End Of Alley</p>
@@ -68,7 +68,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Trang Chủ</a>
+                            <a class="nav-link" href="index.php">Trang Chủ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">Về Chúng Tôi</a>
@@ -96,7 +96,7 @@ https://templatemo.com/tm-559-zay-shop
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="./shop-cart.html">
+                    <a class="nav-icon position-relative text-decoration-none" href="shop-cart.php">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <!-- <span
                             class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
@@ -104,7 +104,7 @@ https://templatemo.com/tm-559-zay-shop
 
                         <!-- Thêm đăng nhập đăng kí -->
                     </a>
-                    <div class=""><a class="nav-icon position-relative text-decoration-none" href="./shop-cart.html">
+                    <div class=""><a class="nav-icon position-relative text-decoration-none" href="shop-cart.php">
                     </a><a href="./login.html" class="btn btn-outline-success border border-success me-2">Đăng Nhập</a>
                     <a href="./register.html" class="btn btn-success text-white">Đăng Kí</a>
                 </div>  
